@@ -1,0 +1,9 @@
+host,port,status,details
+google.com,80,OK,OPEN
+google.com,443,OK,OPEN
+youtube.com,80,OK,OPEN
+youtube.com,443,OK,OPEN
+microsoft.com,80,OK,OPEN
+microsoft.com,443,OK,OPEN
+facebook.com,80,OK,OPEN
+facebook.com,443,OK,OPEN
