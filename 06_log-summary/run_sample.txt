@@ -1,0 +1,4 @@
+[2026-01-11 10:00:01] youtube.com -> OK
+[2026-01-11 10:00:05] google.com -> FAIL -> timeout
+[2026-01-11 10:00:10] 1.1.1.1 -> OK
+[2026-01-11 10:00:12] test.com -> FAIL -> dns error

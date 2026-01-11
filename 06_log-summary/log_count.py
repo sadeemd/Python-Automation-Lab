@@ -1,7 +1,7 @@
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-log_file = BASE_DIR / "run.log"
+log_file = BASE_DIR / "run_sample.txt"
 summary_file = BASE_DIR / "summary.txt"
 
 ok = 0
