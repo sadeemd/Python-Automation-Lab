@@ -1,0 +1,6 @@
+Report time: 2026-01-13T18:58:40
+Keyword: ERROR
+Matches: 2
+------------------------------
+1: ERROR: x
+3: ERROR: z
