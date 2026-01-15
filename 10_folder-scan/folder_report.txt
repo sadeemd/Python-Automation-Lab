@@ -1,0 +1,8 @@
+Folder: D:\courses\En + Ai + Github\Chat GPT course\Python-Automation-Lab\10_folder-scan
+Report time: 2026-01-15T17:42:19
+------------------------------------------------------------
+File Name                                           Size
+------------------------------------------------------------
+folder_scan.py                                    1.1 KB
+------------------------------------------------------------
+Total files: 1
