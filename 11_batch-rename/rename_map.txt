@@ -1,0 +1,3 @@
+# Rename Mapping File
+old1.txt => new1.txt
+old2.log => new2.log
