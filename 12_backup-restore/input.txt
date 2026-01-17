@@ -1,0 +1,2 @@
+This is my original file.
+I want to create a backup before editing.
