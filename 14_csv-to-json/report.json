@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ali",
+    "score": "85",
+    "status": "pass"
+  },
+  {
+    "name": "Sara",
+    "score": "72",
+    "status": "pass"
+  },
+  {
+    "name": "Omar",
+    "score": "49",
+    "status": "fail"
+  }
+]
