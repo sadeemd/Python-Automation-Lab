@@ -1,0 +1,4 @@
+{
+  "hosts": ["google.com"],
+  "ports": [80, 443]
+}
