@@ -1,0 +1,10 @@
+amount,category,date,note,source_file
+12,Food,2026-01-15,Lunch,report1.csv
+5,Transport,2026-01-16,Taxi,report1.csv
+10,Internet,2026-01-17,Mobile data,report1.csv
+8,Food,2026-01-18,Dinner,report2.csv
+25,Shopping,2026-01-18,Groceries,report2.csv
+2,Coffee,2026-01-19,Tea,report2.csv
+3,Transport,2026-01-20,Bus,report3.csv
+6,Food,2026-01-20,Breakfast,report3.csv
+15,Entertainment,2026-01-21,Movie,report3.csv
