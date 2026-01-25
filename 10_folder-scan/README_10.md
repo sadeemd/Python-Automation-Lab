@@ -1,43 +1,84 @@
-# Day 10 — Folder Scan (Pathlib)
+# Day 10 — Folder Scan Report (Pathlib + Sizes)
 
 ## Overview
-This lab scans the current folder using Python `pathlib` and generates a clean report that includes:
+This lab scans the current folder (the same folder where the script exists) and generates a clean report that includes:
 - File names
 - File sizes (B / KB / MB / GB)
 - Sorting from largest to smallest
 - Total number of files
 
-The final output is printed to the terminal and also saved into a text file.
+The report is printed to the terminal and also saved into a text file: `folder_report.txt`.
 
 ---
 
 ## Files
-- `folder_scan.py` — scans the folder and creates the report
-- `folder_report.txt` — generated output report after running the script
+- `folder_scan.py` — scans the folder and generates the report
+- `folder_report.txt` — output report (created after running the script)
 
 ---
 
-## What You Learn
-- Working with files and folders using `pathlib.Path`
-- Difference between `is_file()` and `is_dir()`
-- Reading file metadata using `stat().st_size`
-- Sorting results by file size
-- Saving output to a report file
+## What This Script Does
+✅ Scans the script folder using `Path(__file__).resolve().parent`  
+✅ Collects all files + sizes using `stat().st_size`  
+✅ Converts size into human readable format (B / KB / MB / GB)  
+✅ Sorts files from largest to smallest  
+✅ Prints a formatted table  
+✅ Saves the same output into `folder_report.txt`
 
 ---
 
-## How It Works
-The script:
-1) Scans the current folder (same folder as the script)
-2) Collects all files and their sizes
-3) Sorts them from largest to smallest
-4) Prints a formatted table
-5) Saves the same table to `folder_report.txt`
+## How It Works (Key Ideas)
+- The script uses the same folder of the script itself:
+  `p = Path(__file__).resolve().parent`
+
+- It creates the report file path:
+  `folder_report.txt`
+
+- It skips saving the report file inside the scan results (so it doesn’t include itself).
+
+- It formats sizes using a helper function:
+  `human_size()`
 
 ---
 
-## Run the Script
-Open a terminal in the lab folder and run:
+## How To Run
+Open terminal inside the lab folder and run:
 
-```bash
 python folder_scan.py
+
+---
+
+## Example Output (Terminal)
+Folder: .../10_folder-scan  
+Report time: 2026-01-15T17:42:19  
+------------------------------------------------------------  
+File Name                                           Size  
+------------------------------------------------------------  
+folder_scan.py                                    1.1 KB  
+------------------------------------------------------------  
+Total files: 1  
+
+---
+
+## Output File
+After running, you will find:
+
+folder_report.txt
+
+It contains the same table printed in the terminal.
+
+---
+
+## Notes
+- This lab is very useful for:
+  - checking large files in a project folder
+  - cleaning unnecessary files
+  - quick folder reporting for IT tasks
+
+---
+
+## Mini Challenge (Optional)
+Upgrade the script to:
+- Scan only specific extensions (example: only `.py` files)
+- Include folder sizes too (not only files)
+- Export the report as CSV (file_name, size_bytes, size_human)
