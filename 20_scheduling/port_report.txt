@@ -1,0 +1,9 @@
+PORT CHECK REPORT
+Time: 2026-01-25T19:27:39
+--------------------------------------------------
+[OPEN]  google.com     :80
+[OPEN]  google.com     :443
+[OPEN]  example.com    :80
+[CLOSED] localhost      :80
+--------------------------------------------------
+Open ports: 3/4

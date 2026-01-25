@@ -1,0 +1,6 @@
+======================================= 
+Run time: Sun 01/25/2026 19:27:38.73 
+Folder  : D:\courses\En + Ai + Github\Chat GPT course\Python-Automation-Lab\20_scheduling 
+======================================= 
+DNS report saved to: D:\courses\En + Ai + Github\Chat GPT course\Python-Automation-Lab\20_scheduling\dns_report.txt
+Port report saved to: D:\courses\En + Ai + Github\Chat GPT course\Python-Automation-Lab\20_scheduling\port_report.txt
