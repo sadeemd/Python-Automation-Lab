@@ -1,0 +1,5 @@
+check,error,host,ip,ok,port
+dns,,google.com,142.250.203.14,True,
+dns,,openai.com,172.64.154.211,True,
+port,,8.8.8.8,,True,53
+port,,google.com,,True,443

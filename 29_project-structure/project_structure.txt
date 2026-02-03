@@ -1,0 +1,9 @@
+29_project_structure/
+  src/
+    nhc/
+      nhc.py
+      dns.py
+      ports.py
+  reports/
+  README.md
+  project_structure.txt
