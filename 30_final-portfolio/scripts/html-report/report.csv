@@ -1,0 +1,11 @@
+id,date,source,item,status,notes
+1,2026-01-15,Day1,task_01,OK,completed
+2,2026-01-15,Day1,task_02,FAIL,missing file
+3,2026-01-16,Day2,task_03,OK,
+4,2026-01-16,Day2,task_04,OK,good output
+5,2026-01-17,Day3,task_05,FAIL,error in code
+6,2026-01-17,Day3,task_06,OK,
+7,2026-01-18,Day4,task_07,FAIL,bad format
+8,2026-01-18,Day4,task_08,OK,
+9,2026-01-19,Day5,task_09,OK,
+10,2026-01-19,Day5,task_10,FAIL,wrong status value
